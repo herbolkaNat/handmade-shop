@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    border: 2px solid green;
+}
+
+.small-logo {
+    width: 180px;  
+}
+.main-logo {
+    border: 15px solid rgb(144, 221, 29);
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(25, 179, 11); 
+}
