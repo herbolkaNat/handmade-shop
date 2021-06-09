@@ -10,6 +10,9 @@ img {
     border: 15px solid rgb(144, 221, 29);
 }
 
+.shop {
+    color: red;
+}
 h1 {
     font-size: 30px;
     color: rgb(25, 179, 11); 
