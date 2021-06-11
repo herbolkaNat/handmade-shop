@@ -1,24 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@900&family=Raleway:ital,wght@0,800;1,700&display=swap'););
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Istok+Web&family=Merriweather:wght@900&family=Raleway:ital,wght@0,400;0,800;1,700&display=swap');
 :root {
-    font-family: Raleway, sans-serif;
+    font-family: Istok Web, sans-serif;
+    --main-color: black;
 }
+
 
 img {
     width: 300px;
     border: 2px solid green;
 }
 
-.small-logo {
+header .small-logo {
     width: 180px;  
 }
-.main-logo {
-    border: 15px solid rgb(144, 221, 29);
+header .logo {
+    display: block;
+    color: var(--main-color);
 }
+header .menu {
+    display: block;
+    color: var(--main-color);
+    text-decoration: bold;
+}
+header .menu a:hover {
+    font-weight: bold;
+}
+header .main-logo {
+       border: 15px solid rgb(144, 221, 29);
+    }
 
-.shop {
+header .word-shop {
     color: red;
+    font-weight: bold;
 }
 h1 {
-    font-size: 30px;
+    font-size: 3.5rem;
     color: rgb(25, 179, 11); 
-}
+    font-weight: 700;
+    }
+    .colortext {
+        color: rgb(70, 131, 180);
+        font-weight: 600;
+    }
