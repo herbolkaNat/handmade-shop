@@ -3,28 +3,33 @@
     font-family: Istok Web, sans-serif;
     --main-color: black;
 }
-
-
 img {
     width: 300px;
     border: 2px solid green;
 }
-
 header .small-logo {
     width: 180px;  
-}
-header .logo {
-    display: block;
+    flex-direction: column;
     color: var(--main-color);
+    font-size: small;
+ }
+
+p {
+    line-height: 25px;
 }
 header .menu {
     display: block;
     color: var(--main-color);
-    text-decoration: bold;
+    text-decoration: normal;
+}
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
 }
 header .menu a:hover {
     font-weight: bold;
-}
+  }
 header .main-logo {
        border: 15px solid rgb(144, 221, 29);
     }
