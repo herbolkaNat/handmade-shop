@@ -2,6 +2,7 @@
 :root {
     font-family: Istok Web, sans-serif;
     --main-color: black;
+    scroll-behavior: smooth;
     }
 h2,
 h3,
