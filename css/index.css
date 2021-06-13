@@ -32,9 +32,13 @@ header .menu a {
 @media (min-width: 500px) {
     header nav {
         display: flex;
+        }
     }
-    
-}
+   /*@media (min-width: 500px) {
+        header .banner {
+        display: flex;  
+        }
+    }*/
 header .menu {
     display: flex;
     justify-content: space-around;
@@ -49,10 +53,10 @@ header .menu a:hover {
 header .main-logo {
        border: 15px solid rgb(144, 221, 29);
     }
-
-header .word-shop {
+    header .word-shop {
     color: red;
     font-weight: bold;
+    text-align: left;
 }
 h1 {
     font-size: 3.5rem;
@@ -64,9 +68,31 @@ h1 {
     color: rgb(70, 131, 180);
         font-weight: 600;
     }
-header .banner {
-    background-color: #f7f0e2;
+    @media (min-width: 500px) {
+        hedear .banner {
+     display: flex;
+    }
+ }
+    header .banner {
+    display: flex;
+    flex-direction: row-reverse;
+     background-color: #f7f0e2;
+    margin: auto;
 }
+.banner-botton button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #0ee92b;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    background: color #0ee92b;
+}
+
+
+
+
 
     
 
