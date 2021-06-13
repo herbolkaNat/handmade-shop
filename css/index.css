@@ -2,8 +2,13 @@
 :root {
     font-family: Istok Web, sans-serif;
     --main-color: black;
+    }
+h2,
+h3,
+h4 {
+    text-align: center;
 }
-body {
+    body {
     max-width: 980;
     margin: auto;
 }
@@ -101,10 +106,31 @@ h1 {
         display: flex;
         }
     }
+    
+    @media (min-width: 660px) {
+        .payment-and-delivery-conditions {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 5px;
+        }
+    }
+    
     .shop article img {
         display: block;
         width: 100%;
     }
 
-    
-
+    @media (min-width: 660px) {
+        .boxes {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 5px;
+        }
+    }
+    @media (min-width: 660px) {
+        .new-year-decorations {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 5px;
+        }
+    }
