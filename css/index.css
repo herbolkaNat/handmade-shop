@@ -17,20 +17,29 @@ header .small-logo {
     color: var(--main-color);
     font-size: small;
  }
-
+ header .small-logo p {
+    margin-top: -0.2em;
+   }
 p {
     line-height: 25px;
 }
-header .menu {
+header .menu a {
     display: block;
     color: var(--main-color);
-    text-decoration: normal;
+    text-decoration: none;
 }
 @media (min-width: 500px) {
     header nav {
         display: flex;
     }
 }
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
 header .menu a:hover {
     font-weight: bold;
   }
