@@ -84,15 +84,27 @@ h1 {
     border: 0.1em solid #0ee92b;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
-    color: #FFFFFF;
+    color: #1f1c1c;
     text-decoration: none;
     text-align: center;
+    transition: 0.7s;
     background: color #0ee92b;
 }
-
-
-
-
+.banner-botton {
+    background-color: #f7f0e2;
+}
+#gallery {
+  text-align: center;  
+}
+@media (min-width: 500px) {
+    main nav {
+        display: flex;
+        }
+    }
+    .shop article img {
+        display: block;
+        width: 100%;
+    }
 
     
 
