@@ -3,6 +3,10 @@
     font-family: Istok Web, sans-serif;
     --main-color: black;
 }
+body {
+    max-width: 980;
+    margin: auto;
+}
 img {
     width: 300px;
     border: 2px solid green;
