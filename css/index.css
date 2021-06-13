@@ -16,6 +16,7 @@ header .small-logo {
     flex-direction: column;
     color: var(--main-color);
     font-size: small;
+    background-color: #f7f1e2;
  }
  header .small-logo p {
     margin-top: -0.2em;
@@ -32,12 +33,14 @@ header .menu a {
     header nav {
         display: flex;
     }
+    
 }
 header .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex: 1;
+    background-color: #f7f1e2;
 }
 
 header .menu a:hover {
@@ -57,6 +60,13 @@ h1 {
     font-weight: 700;
     }
     .colortext {
-        color: rgb(70, 131, 180);
+    background-color: #f7f1e2;
+    color: rgb(70, 131, 180);
         font-weight: 600;
     }
+header .banner {
+    background-color: #f7f0e2;
+}
+
+    
+
