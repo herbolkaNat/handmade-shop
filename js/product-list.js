@@ -47,17 +47,20 @@ const productJSON =
         'price': 50,
         'imgUrl': 'img/ethno-toy.jpg',
         'type': 'new-year-decorations'
-    },
+    }
 ]
 ;
-renderProducts(products) {
-    let productHTML ' ';
+function renderProducts(products) {
+    let productHTML = '';
     for (const product of products) {
-        productHTML += ` <article>
-        <img src="${product.imgUrl}" alt="${product.title}">
-        <h4>${product.title}</h4>
-        <p>${product.description}</p>
-        <button>Додати до кошика - ${product.price}</button>
-    </article>`
+        productHTML += ` 
+        <article>
+            <img src="${product.imgUrl}" alt="${product.title}">
+            <h4>${product.title}</h4>
+            <p>${product.description}</p>
+            <button>Додати до кошика - UAH${product.price}</button>
+        </article>`
     }
+document.querySelector('.products').inner = productsHTML;
 }
+renderProducts(JSON.parse(productJSON))

@@ -17,13 +17,19 @@ img {
     width: 300px;
     border: 2px solid green;
 }
+.clock {
+    border: 2px solid green;
+    background-color: rgb(144, 221, 29);
+    color: darkblue;
+    border-width: 3px;
+    margin-right: 90%;
+}
 header .small-logo {
     width: 180px;  
-    flex-direction: column;
     color: var(--main-color);
     font-size: small;
     background-color: #f7f1e2;
-     }
+    }
  header .small-logo p {
     margin-top: -0.2em;
    }
