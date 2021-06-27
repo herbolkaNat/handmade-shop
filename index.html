@@ -13,35 +13,36 @@
 
 <body>
     <p class="clock"></p>
-    <div class="small-logo">
-        <tel.>тел.+38(067)9069203</tel.>
-        <p><a href="mailto:herbolka@yahoo.com">email: herbolka@yahoo.com</a></p>
-    </div>
-    <header>
+    <header class="container">
+
         <nav>
             <div class="menu">
                 <!--<img class="small-logo" src="img/small-logo.png" alt="HerbolkArt">-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#"></a>
-                        <img class="small-logo" src="img/small-logo.png" alt="HerbolkArt">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#about-the-author">Про
-                                    автора</a>
-                                <a class="nav-link" href="#shop">Магазин</a>
-                                <a class="nav-link" href="#payment-and-delivery-conditions">Умови оплати та
-                                    доставки</a>
-                                <a class="nav-link" href="#cart.html">Кошик</a>
-                                <a class="nav-link" href="#contacts">Контакти</a>
-
+                        <div class="small-logo">
+                            <tel.>тел.+38(067)9069203</tel.>
+                            <p><a href="mailto:herbolka@yahoo.com">email: herbolka@yahoo.com</a></p>
+                        </div>
+                        <div class="navbar">
+                            <a class="navbar-brand" href="#"></a>
+                            <img class="small-logo" src="img/small-logo.png" alt="HerbolkArt">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link active" aria-current="page" href="#about-the-author">Про
+                                        автора</a>
+                                    <a class="nav-link" href="#shop">Магазин</a>
+                                    <a class="nav-link" href="#payment-and-delivery-conditions">Умови оплати та
+                                        доставки</a>
+                                    <a class="nav-link" href="#cart.html">Кошик</a>
+                                    <a class="nav-link" href="#contacts">Контакти</a>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </nav>
@@ -103,21 +104,24 @@
                 <button>До магазину</button>
             </div>
         </nav>
-        <h2>Як це працює</h2>
-        <p><strong>Умови оплати та доставки</strong></p>
+        <h2 id="how-it-works">Як це працює</h2>
+        <p class="conditions"><strong>Умови оплати та доставки</strong></p>
         <div class="payment-and-delivery-conditions">
             <div class="box1">
+                <img src="img/basket.svg" alt="баскет">
                 <h3>1. Умови замовлення</h3>
                 <p>Замовлення приймаються в режиме онлайн, на email – herbolka@yahoo.com (прохання зазначати в темі
                     емейлy
                     слово “ЗАМОВЛЕННЯ”) та за телефоном з 9.00 до 22.00 +38(067) 906 92 03 (Наталя).</p>
             </div>
             <div class="box2">
+                <img src="img/bike.svg" alt="байк">
                 <h3>2. Спосіб доставки</h3>
                 <p>Нова Пошта, Укрпошта, Самовивіз (самовивіз з настyпніх районів м. Львова: “Новий Львів”, “Сихів”,
                     “Центр”).</p>
             </div>
             <div class="box3">
+                <img src="img/mobile.svg" alt="телефон">
                 <h3>Спосіб оплати</h3>
                 <p>Оплата на картку Приватбанкy (100%-на предоплата на карту Привабанкy при доставці Новою поштою або
                     Укрпоштою). Оплата готівкою при самовивозі (оплата при отриманні можлива при особистій зyстрічі).
@@ -128,8 +132,8 @@
             <h2 id="shop">Shop</h2>
             <div class="shop">
                 <h3>Скриньки</h3>
-                <div class="boxes">
-                    <!--<article>
+                <!--<div class="boxes">
+                    <article>
                         <img src="img/peacock.jpg" alt="скринька з павичем">
                         <h4>Скринька з павичем</h4>
                         <p>Для прикрас і маленьких жіночих таємниць. Скринька в техніці декyпаж з об’ємною ліпниною
@@ -151,9 +155,9 @@
                             інших дрібниць. Рyчна робота.</p>
                         <button>Додати до кошика</button>
                     </article>
-                </div>-->
-                <h3>Новорічні прикраси</h3>
-                <!--<div class="new-year-decorations">
+                </div>
+                    <h3>Новорічні прикраси</h3>
+                    <div class="new-year-decorations">
                     <article>
                         <img src="img/horse.jpg" alt="прикраса коник">
                         <h4>Прикраса коник</h4>

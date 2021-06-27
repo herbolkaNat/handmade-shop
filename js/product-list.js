@@ -51,9 +51,9 @@ const productJSON =
 ]
 ;
 function renderProducts(products) {
-    let productHTML = '';
+    let shopHTML = '';
     for (const product of products) {
-        productHTML += ` 
+        shopHTML += ` 
         <article>
             <img src="${product.imgUrl}" alt="${product.title}">
             <h4>${product.title}</h4>
@@ -61,6 +61,6 @@ function renderProducts(products) {
             <button>Додати до кошика - UAH${product.price}</button>
         </article>`
     }
-document.querySelector('.products').inner = productsHTML;
+document.querySelector('.products').inner = shopHTML;
 }
 renderProducts(JSON.parse(productJSON))
