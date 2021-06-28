@@ -23,5 +23,18 @@
         }
         .welcome {
         font-size: 40px;   
-        line-height: 25px;
+        line-height: 45px;
         }    
+        .about-the-author p {
+        line-height: 30px;  
+        }
+     .about-the-author .button-author {
+        background-color: rgb(25, 179, 11);
+        color: ghostwhite;
+        max-width: 150px;
+        }
+        .button-author-shop {
+            background-color: rgb(25, 179, 11);
+            color: ghostwhite;
+            max-width: 150px;
+        }
