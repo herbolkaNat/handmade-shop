@@ -1,0 +1,27 @@
+@media (min-width: 500px) {
+    main nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5px;
+        padding-top: 190px;
+        }
+    }
+    .photo-author {
+        justify-self: end;
+   
+    }
+    .photo-author img {
+        width: 550px;
+                }
+#about-the-author {
+            color: coral;
+            font-size: 14px;
+            text-align: left;
+        }
+        .author {
+            padding-top: 180px; 
+        }
+        .welcome {
+        font-size: 40px;   
+        line-height: 25px;
+        }    

@@ -1,0 +1,21 @@
+.shop article img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 660px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+@media (min-width: 660px) {
+    .new-year-decorations {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+    

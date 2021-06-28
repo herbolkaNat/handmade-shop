@@ -5,15 +5,15 @@ const images = [
 'img/happy-eggs.jpg'
 ];
 let currentSlide = 0;
-function showCurrentSlide {
-    const imageContainer = document.querySelector('.producy-carusel .product-image');
-    imagesContainer.src = images[currentSlide];
+function showCurrentSlide() {
+    const imageContainer = document.querySelector('.products-carusel .product-image');
+    imageContainer.src = images[currentSlide];
 }
 function next() {
     currentSlide++;
-    if (currentSlide > images.lenth - 1) currentSlide = 0;
+    if (currentSlide > images.length - 1) currentSlide = 0;
     showCurrentSlide();
 }
 setInterval(next, 1000);
 showCurrentSlide();
-document.querySelector('product-carusel. next').addEventListener(click)
+document.querySelector('products-carusel .next').addEventListener(click)
