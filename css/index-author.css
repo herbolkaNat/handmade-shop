@@ -15,7 +15,7 @@
                 }
 #about-the-author {
             color: coral;
-            font-size: 14px;
+            font-size: 18px;
             text-align: left;
         }
         .author {
@@ -23,18 +23,30 @@
         }
         .welcome {
         font-size: 40px;   
-        line-height: 45px;
+        line-height: 50px;
+        padding-top: 20px;
         }    
-        .about-the-author p {
-        line-height: 30px;  
+        .welcome-text-part-one {
+        line-height: 30px; 
+        padding-bottom: 20px; 
         }
      .about-the-author .button-author {
         background-color: rgb(25, 179, 11);
         color: ghostwhite;
-        max-width: 150px;
+        width: 200px;
+        height: 65px;
+        border-radius: 10px;
+        justify-content: space-around;
         }
+        .button-author:hover {
+            font-weight: bold;
+          }
+          .welcome-text-part-two {
+              padding-top: 40px;
+          }
         .button-author-shop {
             background-color: rgb(25, 179, 11);
             color: ghostwhite;
             max-width: 150px;
+            border-radius: 10px;
         }

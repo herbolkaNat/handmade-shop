@@ -1,6 +1,6 @@
 #gallery {
     text-align: center;  
-    padding-top: 190px;
+    padding-top: 130px;
   }
   .products-carusel .product-image {
       display: block;
@@ -10,5 +10,6 @@
   .background-line-down {
       width: 100%;
       border: white;
-      padding-top: 190px;
+      padding-top: 150px;
   }
+  

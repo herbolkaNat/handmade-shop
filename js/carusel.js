@@ -1,8 +1,7 @@
 const images = [
 'img/round-box.jpg',
 'img/squire-box.jpg',
-'img/peacock.jpg',
-'img/happy-eggs.jpg'
+'img/peacock.jpg'
 ];
 let currentSlide = 0;
 function showCurrentSlide() {
