@@ -10,7 +10,59 @@
     padding-top: 190px;
    }
    .footer-container {
-       display: grid;
-       grid-template-columns: 25% 25% 25% 25%;
+       /*display: grid;
+       grid-template-columns: 25% 25% 25% 25%;*/
        background-color: #333;
    }
+    @media (min-width: 500px) {
+        .footer-container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+       }
+    }
+    .title-footer {
+    font-size: 16px;
+    color: rgb(35, 207, 20); 
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: left;
+    line-height: 25px;  
+    }
+    .colortext {
+    /*background-color: #f7f1e2;*/
+    color: rgb(70, 131, 180);
+    /*font-weight: 700;*/
+    }
+    .main-logo-footer {
+        width: 50%;
+        padding-left: 5em;
+        border: none;
+    }
+    .box-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-contacts {
+    display: flex;
+    flex-direction: column;
+    }
+    #contacts-footer {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    }
+    #aplication-footer {
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    
+    
+    .box-contacts {
+        justify-content: right;
+        flex-direction: column;
+
+    }
+
