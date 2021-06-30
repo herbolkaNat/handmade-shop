@@ -44,9 +44,15 @@
           .welcome-text-part-two {
               padding-top: 40px;
           }
+          .all-links p {
+            font-style: italic;
+            line-height: 20px;
+          }
+
         .button-author-shop {
             background-color: rgb(25, 179, 11);
             color: ghostwhite;
             max-width: 150px;
             border-radius: 10px;
         }
+        

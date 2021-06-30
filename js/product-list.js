@@ -50,7 +50,27 @@ const productJSON =
     }
 ]
 ;
-function renderProducts(products) {
+function renderProducts(products, type, selector) {
+    let shopHTML = '';
+    const filteredProducts = products.filter( product => product.type === type);
+    for (const product of filteredProducts) {
+        shopHTML += ` 
+        <article>
+            <img src="${product.imgUrl}" alt="${product.title}">
+            <h4>${product.title}</h4>
+            <p>${product.description}</p>
+            <button>Додати до кошика - UAH${product.price}</button>
+        </article>`
+    }
+document.querySelector(selector).inner = shopHTML;
+}
+
+const productList = JSON.parse(productJSON); 
+renderProducts(productList, 'boxes', '.boxes-list');
+renderProducts(productList, 'new-year-decorations', '.decorations-list');
+
+
+/*function renderProducts(products) {
     let shopHTML = '';
     for (const product of products) {
         shopHTML += ` 
@@ -63,4 +83,4 @@ function renderProducts(products) {
     }
 document.querySelector('.products').inner = shopHTML;
 }
-renderProducts(JSON.parse(productJSON))
+renderProducts(JSON.parse(productJSON))*/

@@ -2,7 +2,7 @@
     width: 100%;
     border: white;
     padding-top: 190px;
-    padding-bottom: 190px;
+    padding-bottom: 20px;
 }
 .background-line-black-up {
     width: 100%;
@@ -21,12 +21,14 @@
        }
     }
     .title-footer {
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(35, 207, 20); 
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 20px;
     text-align: left;
-    line-height: 25px;  
+    line-height: 35px;  
+    padding-left: 20px;
+    padding-right: 20px;
     }
     .colortext {
     /*background-color: #f7f1e2;*/
@@ -34,7 +36,7 @@
     /*font-weight: 700;*/
     }
     .main-logo-footer {
-        width: 50%;
+        width: 70%;
         padding-left: 5em;
         border: none;
     }
@@ -57,12 +59,20 @@
         text-align: left;
         line-height: 30px;
         padding-bottom: 20px;
+        padding-right: 30px;
     }
-    
-    
+       
     .box-contacts {
         justify-content: right;
         flex-direction: column;
-
+    }
+    .button-footer {
+        color: white;
+        background-color: yellowgreen;
+        border-radius: 10px;
+        height: 45px;
+        margin-top: 20px;
+        
+        
     }
 
