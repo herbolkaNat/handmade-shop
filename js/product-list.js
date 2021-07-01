@@ -51,8 +51,8 @@ const productJSON =
 ]`
 ;
 function renderProducts(products, type, selector) {
-    let shopHTML = '';
-    const filteredProducts = products.filter( product => product.type === type);
+    let shopHTML = "";
+    const filteredProducts = products.filter(product => product.type === type);
     for (const product of filteredProducts) {
         shopHTML += ` 
         <article>
@@ -62,12 +62,12 @@ function renderProducts(products, type, selector) {
             <button>Додати до кошика - UAH${product.price}</button>
         </article>`
     }
-document.querySelector(selector).inner = shopHTML;
+document.querySelector(selector).innerHTML = shopHTML;
 }
 
 const productList = JSON.parse(productJSON); 
-renderProducts(productList, 'boxes', '.boxes-list');
-renderProducts(productList, 'new-year-decorations', '.decorations-list');
+renderProducts(productList, "boxes", ".boxes-list");
+renderProducts(productList, "new-year-decorations", "".decorations-list");
 
 
 /*function renderProducts(products) {
