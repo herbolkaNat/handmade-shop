@@ -48,8 +48,8 @@ const productJSON =
         "imgUrl": "img/ethno-toy.jpg",
         "type": "new-year-decorations"
     }
-]`
-;
+]
+`;
 function renderProducts(products, type, selector) {
     let shopHTML = "";
     const filteredProducts = products.filter(product => product.type === type);
@@ -67,5 +67,5 @@ document.querySelector(selector).innerHTML = shopHTML;
 
 const productList = JSON.parse(productJSON); 
 renderProducts(productList, "boxes", ".boxes-list");
-renderProducts(productList, "new-year-decorations", ".decorations-list");
+renderProducts(productList, "new-year-decorations", ".new-year-decorations-list");
 

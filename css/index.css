@@ -17,9 +17,9 @@ img {
     width: 300px;
     border: 2px solid green;
 }
-p {
+/*p {
     line-height: 25px;
-}
+}*/
 
 header {
     background-image: linear-gradient(rgb(248, 232, 219), white);
