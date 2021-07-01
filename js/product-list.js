@@ -67,20 +67,5 @@ document.querySelector(selector).innerHTML = shopHTML;
 
 const productList = JSON.parse(productJSON); 
 renderProducts(productList, "boxes", ".boxes-list");
-renderProducts(productList, "new-year-decorations", "".decorations-list");
+renderProducts(productList, "new-year-decorations", ".decorations-list");
 
-
-/*function renderProducts(products) {
-    let shopHTML = '';
-    for (const product of products) {
-        shopHTML += ` 
-        <article>
-            <img src="${product.imgUrl}" alt="${product.title}">
-            <h4>${product.title}</h4>
-            <p>${product.description}</p>
-            <button>Додати до кошика - UAH${product.price}</button>
-        </article>`
-    }
-document.querySelector('.products').inner = shopHTML;
-}
-renderProducts(JSON.parse(productJSON))*/
