@@ -15,4 +15,4 @@ function next() {
 }
 setInterval(next, 1000);
 showCurrentSlide();
-document.querySelector('products-carusel .next').addEventListener(click)
+document.querySelector('.products-carusel .next').addEventListener(click)

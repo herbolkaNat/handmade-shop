@@ -1,5 +1,5 @@
 const productJSON =
-[
+`[
     {
         'id': '1',
         'title': 'Скринька з павичем',
@@ -48,7 +48,7 @@ const productJSON =
         'imgUrl': 'img/ethno-toy.jpg',
         'type': 'new-year-decorations'
     }
-]
+]`
 ;
 function renderProducts(products, type, selector) {
     let shopHTML = '';
