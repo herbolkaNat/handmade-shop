@@ -55,12 +55,12 @@ function renderProducts(products, type, selector) {
     const filteredProducts = products.filter(product => product.type === type);
     for (const product of filteredProducts) {
         shopHTML += ` 
-        <article>
-            <img src="${product.imgUrl}" alt="${product.title}">
-            <h4>${product.title}</h4>
-            <p>${product.description}</p>
-            <button>Додати до кошика - UAH${product.price}</button>
-        </article>`
+        <div class="content">
+             <img src="${product.imgUrl}" alt="${product.title}" style="width:30%">
+             <h4>${product.title}</h4>
+             <p>${product.description}</p>
+             <button>Додати до кошика - UAH${product.price}</button>
+        </div>`
     }
 document.querySelector(selector).innerHTML = shopHTML;
 }

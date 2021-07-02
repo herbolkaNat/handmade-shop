@@ -12,4 +12,8 @@
       border: white;
       padding-top: 150px;
   }
+  .product.imgUrl {
+    width: 50%;
+    border: 2px solid green;
+  }
   
