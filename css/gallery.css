@@ -1,0 +1,6 @@
+@media (min-width: 980px)
+.boxes-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+}
