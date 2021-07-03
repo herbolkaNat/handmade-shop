@@ -42,11 +42,18 @@
             font-weight: bold;
           }
           .welcome-text-part-two {
-              padding-top: 40px;
+              padding-top: 30px;
+          }
+          .facebook-link,
+          .blog-things,
+          .blog-bottles,
+          .landing-decorations,
+          .landing-boxes {
+              display: flex;
           }
           .all-links p {
             font-style: italic;
-            line-height: 20px;
+            line-height: 25px;
           }
 
         .button-author-shop {
@@ -54,5 +61,5 @@
             color: ghostwhite;
             max-width: 150px;
             border-radius: 10px;
-        }
+           }
         
