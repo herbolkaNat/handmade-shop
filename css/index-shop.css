@@ -1,21 +1,33 @@
 .shop article img {
     display: block;
-    width: 100%;
-}
+    width: 50%;
+    }
 
 @media (min-width: 660px) {
-    .boxes {
+    .boxes-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 5px;
     }
 }
 @media (min-width: 660px) {
-    .new-year-decorations {
+    .new-year-decorations-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 5px;
+        grid-gap: 15px;
     }
 }
-
-    
+.shop-title {
+   color: rgb(18, 117, 63);
+   padding-top: 90px;
+   padding-bottom: 40px;
+   font-size: 50px;
+}
+/*.shop-title h:hover {
+    font-weight: bold;
+  }*/
+   .boxes-list imgUrl {
+       justify-items: center;
+   }
+  
+   
