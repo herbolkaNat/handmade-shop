@@ -1,20 +1,26 @@
-.shop article img {
+/*.shop article img {
     display: block;
     width: 50%;
-    }
+    }*/
 
 @media (min-width: 660px) {
     .boxes-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 5px;
+        grid-gap: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
     }
 }
 @media (min-width: 660px) {
     .new-year-decorations-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
+        grid-gap: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+        text-align: center;
     }
 }
 .shop-title {
@@ -23,11 +29,19 @@
    padding-bottom: 40px;
    font-size: 50px;
 }
-/*.shop-title h:hover {
+.shop-title:hover {
+    background-color: rgb(157, 163, 151);
+    }
+  .boxes-title,
+  .new-year-decorations-title {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: rgb(32, 196, 87);
+  }
+  .boxes-title:hover {
     font-weight: bold;
-  }*/
-   .boxes-list imgUrl {
-       justify-items: center;
-   }
-  
-   
+  }
+  .new-year-decorations-title:hover {
+    font-weight: bold;
+  }
