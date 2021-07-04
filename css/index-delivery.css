@@ -7,8 +7,11 @@
 }
 .payment-and-delivery-conditions {
     display: grid;
-    grid-gap: 20px;
-    text-align: justify;
+    grid-gap: 40px;
+    text-align: centre;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 35px;
 }
 .conditions {
     text-align: center;
@@ -31,4 +34,9 @@
 .conditions {
     font-size: 35px;
     padding-bottom: 100px;
+    }
+    .box1 p,
+    .box2 p,
+    .box3 p {
+        text-align: center;
     }
