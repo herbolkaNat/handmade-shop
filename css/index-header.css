@@ -3,7 +3,8 @@
     background-color: rgb(144, 221, 29);*/
     color: rgb(0, 139, 42);
     border-width: 3px;
-    margin-right: 90%;
+    /*margin-right: 80%;*/
+    padding-left: 30px;
     border-width: 10px;
     }
     .clock:hover {
@@ -33,7 +34,7 @@ header .navbar img:hover {
     header nav {
         display: flex;
         }
-    }**/
+    }*/
    /*@media (min-width: 500px) {
         header .banner {
         display: flex;  
@@ -89,12 +90,7 @@ h1 {
     .banner img:hover {
         background-color: firebrick;
     }
-    .banner-botton  {
-        /*color: rgb(25, 179, 11);*/
-        padding-left: 5em;
-        padding-bottom: 100px;
-        justify-items: end;
-        }
+    
    /* .banner p {
         align-self: start;
         grid-row: 1/1;
@@ -106,16 +102,8 @@ h1 {
        align-items: star;
         
     }
-    .banner button {
-        /*align-self: start;
-        justify-items: start;*/
-        background-color: rgb(25, 179, 11);
-        color: ghostwhite;
-        grid-row: 3;
-        max-width: 150px;*/
-    }
-    .icons 
-    {
+    
+    .icons {
         width: 50%;
     }
    /* @media (min-width: 500px) {
@@ -129,24 +117,8 @@ h1 {
      background-color: #f7f0e2;
     margin: auto;
 }
-.banner-botton button {
-    padding: 0.35em 1.2em;
-    border: 0.1em solid #0ee92b;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    color: #1f1c1c;
-    text-decoration: none;
-    text-align: center;
-    transition: 0.7s;
-    background: color #0ee92b;
-}
-.banner-botton {
-    background-color: #f7f0e2;
-}*/
-.facebook-icon {
-    width: 20px !important;
-    border: white !important;
-}
+
+
 
 /*@media (min-width: 50px) {
     .clock-menu {
@@ -160,3 +132,43 @@ h1 {
 .container {
     max-width: none;
 }
+.banner-botton-shop {
+  position: relative;
+  display: inline-block;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 1em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
+  box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+  justify-items: center;
+}
+input.banner-botton-shop:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+input.banner-botton-shop:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+
+    
+    
