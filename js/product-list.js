@@ -11,7 +11,7 @@ const productJSON =
    {
        "id": "2",
        "title": "Скринька з калиною",
-       "description": "Для прикрас і маленьких жіночих таємниць. Скринька в техніці декyпаж для прикрас та інших дрібниць. Рyчна робота.",
+       "description": "Для прикрас і маленьких жіночих таємниць. Скринька в техніці декyпаж. Рyчна робота.",
        "price": 200,
         "imgUrl": "img/guelder-rose.jpg",
        "type": "boxes"
@@ -19,7 +19,7 @@ const productJSON =
    {
        "id": "3",
        "title": "Скринька кругла старовинна",
-      "description": "Для прикрас і маленьких жіночих таємниць. Скринька з об’ємною ліпниною для прикрас та інших дрібниць. Рyчна робота.",
+      "description": "Для прикрас і маленьких жіночих таємниць. Скринька з об’ємною ліпниною. Рyчна робота.",
        "price": 200,
         "imgUrl": "img/round-box.jpg",
        "type": "boxes"
@@ -59,7 +59,7 @@ function renderProducts(products, type, selector) {
           <img src="${product.imgUrl}" alt="${product.title}">
           <h4>${product.title}</h4>
           <p>${product.description}</p>
-          <button>Додати до кошика - UAH${product.price}</button>
+          <button type="button" class="btn btn-outline-warning">Додати до кошика - UAH${product.price}</button>
       </article>`
   }
 document.querySelector(selector).innerHTML = shopHTML;
