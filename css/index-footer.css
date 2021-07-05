@@ -1,13 +1,13 @@
 .background-line-up {
     width: 100%;
     border: white;
-    padding-top: 190px;
+    padding-top: 90px;
     padding-bottom: 20px;
 }
 .background-line-black-up {
     width: 100%;
     border: none;
-    padding-top: 190px;
+    padding-top: 90px;
    }
    .footer-container {
        /*display: grid;
@@ -24,7 +24,7 @@
     padding-top: 20px;
     text-align: left;
     line-height: 35px;  
-    padding-left: 20px;
+    padding-left: 25px;
     padding-right: 20px;
     }
     .colortext {
@@ -34,9 +34,9 @@
     }
     .main-logo-footer {
         width: 70%;
-        padding-left: 5em;
+        padding-left: 1em;
         border: none;
-    }
+        }
     .box-menu {
         display: flex;
         flex-direction: column;
@@ -63,16 +63,18 @@
         justify-content: right;
         flex-direction: column;
     }
+    
     .button-footer {
         color: white;
         background-color: yellowgreen;
         border-radius: 10px;
         height: 45px;
-        margin-top: 20px;
-        
-        
+        margin-top: 20px;     
     }
-
+.facebook-icon {
+    width: 20%;
+    padding-top: 20px;
+}
     @media (max-width: 768px) {
         .footer-container {
         grid-template-columns: 1fr;
@@ -82,4 +84,7 @@
         text-align: center;
     }
     .title-footer,
-    
+    #contacts-footer,
+    #aplication-footer {
+    text-align: center;
+    }
