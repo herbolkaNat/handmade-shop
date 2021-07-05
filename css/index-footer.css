@@ -13,13 +13,10 @@
        /*display: grid;
        grid-template-columns: 25% 25% 25% 25%;*/
        background-color: #333;
+       display: grid;
+       grid-template-columns: 25% 25% 25% 25%;
    }
-    @media (min-width: 500px) {
-        .footer-container {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-       }
-    }
+    
     .title-footer {
     font-size: 20px;
     color: rgb(35, 207, 20); 
@@ -76,3 +73,13 @@
         
     }
 
+    @media (max-width: 768px) {
+        .footer-container {
+        grid-template-columns: 1fr;
+      }
+    }
+    .footer-container {
+        text-align: center;
+    }
+    .title-footer,
+    

@@ -48,3 +48,13 @@
   .shop-title-two:hover {
 font-style: oblique;
   }
+
+  .boxes-list article img {
+    width: 100%;
+    border: 2px solid green;
+}
+
+.new-year-decorations-list article img {
+  width: 100%;
+    border: 2px solid green;
+}

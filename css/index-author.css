@@ -1,11 +1,11 @@
-@media (min-width: 500px) {
-    main nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 5px;
-        padding-top: 190px;
-        }
+main nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    padding-top: 190px;
     }
+
+
     .photo-author {
         justify-self: end;
    
@@ -63,3 +63,16 @@
             border-radius: 10px;
            }
         
+           @media (max-width: 768px) {
+            main nav {
+            grid-template-columns: 1fr;
+            }
+        
+            .photo-author img {
+                width: 100%;
+            }
+        
+            .photo-author {
+                justify-self: normal;
+            }
+        }
